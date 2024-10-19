@@ -1,2 +1,2 @@
 # html-css
- estudos de html e css
+ estudos e exercicios de html e css
