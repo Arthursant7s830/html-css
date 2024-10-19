@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {/* box-level*/
+    background-color: lightgrey;
+    height: 300px;
+    width: 300px;
+    border: 10px solid lightslategray;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    outline: 5px double lightcyan;
+}
+
+a {/* inline-level*/
+    border-width: 10px;
+    border-style: double;
+    border-color: lightgreen;
+}
