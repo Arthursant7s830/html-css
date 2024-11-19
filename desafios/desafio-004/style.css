@@ -30,7 +30,6 @@ a.externo::after{
     --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
     --fonte-destaque: "Bebas Neue", sans-serif;
     --fonte-android: 'Android', cursive;
-
 }
 
 header {
@@ -38,9 +37,6 @@ header {
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
     text-align: center;
     padding-top: 40px;
-
-
-
 }
 
 header>h1 {
@@ -52,7 +48,7 @@ header>h1 {
     text-shadow: 2px 2px 0px #063d1e8a;
 }
 
-header>p {
+header>p{
     color: #ffff;
     font-family: var(--fonte-padrao);
     font-size: 1.3m;
@@ -64,7 +60,7 @@ header>p {
     padding-left: 10px;
 }
 
-main {
+main{
     background-color: #ffff;
     box-shadow: 2px 2px 8px  rgba(0, 0, 0, 0.223);
     min-width: 300px;
@@ -74,18 +70,15 @@ main {
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
-
 }
 
-main a {
+main a{
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
     background-color: var(--cor1);
     padding: 2px 6px;
 }
-
 main a:hover {
     text-decoration: underline;
     color: var(--cor4);
@@ -106,8 +99,6 @@ main img.pequena {
     display: block;
     max-width: 200px;
     margin: auto;
-
-
 }
 
 main strong {
@@ -118,10 +109,9 @@ main strong {
 div.video{
     background-color: var(--cor5);
     margin: 0px -20px  30px -31px;
-    padding: 20px ;
+    padding: 40px ;
     padding-bottom: 59%;
-    position: relative;
-    
+    position: relative;    
 }
 div.video>iframe{
      position: absolute;
@@ -130,14 +120,11 @@ div.video>iframe{
      width: 90%;
      height: 90%;
 }
-
 nav {
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.249);
-
 }
-
 nav>a {
     color: var(--cor1);
     padding: 10px;
@@ -176,6 +163,7 @@ aside>ul {
     list-style-position: inside;
     list-style-type: ' \2714\00A0\00A0';
     columns: 2;
+    text-align: justify;
 
 }
 
@@ -194,7 +182,7 @@ aside {
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.277) ;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.216) ;
 }
 
 footer {
@@ -203,5 +191,5 @@ footer {
     text-align: center;
     font-size: 0.8em;
     font-weight: bold;
-    padding: 5px;
+    padding: 8px;
 }
