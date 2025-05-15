@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    font-size: 20px;
+}
+h1{
+    color: green;
+}
+.paragrafo1{
+    color: gray;
+    text-align: justify;
+}
+#menu{
+    margin-left: 100px;
+}
